@@ -26,7 +26,7 @@ module.exports = defineConfig({
     html: false,
     json: true,
   },
-  projectId: '3ikmxp',
+  projectId: 'i35e87',
   Comments1:
     'overwrite: false will make sure that the report of the previous tests is not overwritten by the current test.',
   Comments2:
