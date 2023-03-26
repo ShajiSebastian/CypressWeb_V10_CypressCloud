@@ -21,7 +21,7 @@
     "test:runScriptsAndGenerateIndividualJSONfiles": "npm run delete:mochawesomeIndividualJSONfiles && cypress run",
     "merge:individualJSONfiles": "mochawesome-merge mochawesome-report/*.json > cypress-combined-report.json",
     "create:html:report": "npm run merge:individualJSONfiles && marge --reportDir TestReport cypress-combined-report.json",
-    "runInCypressCloud":"npx cypress run --record --key 30f06631-1a93-4c8b-8eb3-bda9e7b27371",
+    "runInCypressCloud": "npx cypress run --record --key 30f06631-1a93-4c8b-8eb3-bda9e7b27371",
     "Comments1": "To avoid getting automation code shown in html report simply pass --no-code in the merge command"
   },
   "keywords": [],
